@@ -1,0 +1,140 @@
+.container-fluid {
+    padding-top: 0%;
+}
+
+.header {
+    position: relative;
+}
+
+body {
+    background-color:rgba(39, 60, 99, 0.668);
+}
+
+#carIMG{
+    display: block;
+    max-width: 700px;
+}
+
+#home {
+    font-size: 60px;
+}
+
+#headCenter {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.headStyle {
+    color:rgb(201, 201, 201);
+    font-size: 50px;
+}
+
+#edList{
+    margin: 2% 2% 2% 8%;
+    color: aliceblue;
+}
+
+#masDesc {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#subDesc {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#desc {
+    margin-left: 60px;
+    margin-top: 10px;
+    max-width: fit-content;
+}
+
+/* newly defined ids and classes below*/
+
+.navBtn {
+    border-style:groove;
+    border-radius: 35px 5px;
+    font-family: sans-serif;
+    border-style: outset;
+    border-width: 3px;
+    margin: 0% 10% 2% 10%;
+    background-color:rgb(173, 168, 195);
+    border-color: rgb(147, 138, 158);
+    padding: 5px;
+    width: 150px;
+}
+
+.navTitle {
+    color: aqua;
+    float: right;
+    margin: 1%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+
+.bar {
+    background-color: rgb(29, 24, 41);
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    background-color:rgb(173, 168, 195);
+    border-color: rgb(147, 138, 158);
+    border-style: outset;
+}
+
+.pageTitle {
+    font-size: 80px;
+    margin: 0% 0% 1% 1%
+}
+
+body {
+    padding-top: 100px;
+    background-color:rgba(39, 60, 99, 0.668) !important;
+    color: cornsilk !important;
+}
+
+.bOuter{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.bInner{
+    display: inline-block;
+    text-align: center;
+    width: 600px;
+}
+
+label {
+    width: 150px;
+    font-size: 20px;
+}
+
+.cList{
+    width: 600px;
+}
+
+.breaker{
+    background-color: black;
+    color: black;
+    z-index: 1;
+    height: 20px;
+    opacity: 1;
+    display: block;
+    
+}
+
+.carPre{
+    max-width: 100%;
+    justify-content: center;
+}
+
+img{
+    margin: auto;
+}
