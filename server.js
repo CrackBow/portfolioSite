@@ -10,8 +10,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', route);
 
-
-
 mongoose.connect("mongodb+srv://dWhite:DThffyclZOYjcYA4@cluster0.c2br7ih.mongodb.net/portfolioDB", {useNewUrlParser: true, useUnifiedTopology: true})
 .then(() => {
     app.listen(3000, () => {
