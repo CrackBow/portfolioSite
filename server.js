@@ -12,10 +12,10 @@ app.use('/', route);
 
 mongoose.connect("mongodb+srv://dWhite:DThffyclZOYjcYA4@cluster0.c2br7ih.mongodb.net/portfolioDB", {useNewUrlParser: true, useUnifiedTopology: true})
 .then(() => {
-    app.listen(3000, () => {
+    app.listen(process.env.PORT || 3000, () => {
         console.log("server is running on 3000")
     })
-}).listen(process.env.PORT || 3000)
+})
 
 //dWhite
 //smR2mgBMewG7rEsT
